@@ -6,5 +6,5 @@ I am a Designer who is enthusiastic about digital design tools and open source. 
 
 ### Projects
 
-:clapper: **Cinefyne** - A TMDB Widget made with Go and Fyne
-
+:clapper: [**CineFyne**](https://github.com/TrevorSmale/cinefyne) - A TMDB Widget made with Go and Fyne 
+:pencil2:	[**Tutils**](https://github.com/TrevorSmale/tutils) - A Python pluggin widget to speed up my modelling/rendering workflow
