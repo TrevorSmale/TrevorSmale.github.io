@@ -4,7 +4,7 @@ I am a Designer who is enthusiastic about digital design tools and open source. 
 
 ## Development Projects
 
-
+-
 
 [**CineFyne**](https://github.com/TrevorSmale/cinefyne) - A TMDB Widget made with Go and Fyne 
 
