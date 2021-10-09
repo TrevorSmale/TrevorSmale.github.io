@@ -6,7 +6,5 @@ I am a Designer who is enthusiastic about digital design tools and open source. 
 
 ### Projects
 
-:youtube: :floppydisk:
-
-*Cinefyne* - A TMDB Widget made with Go and Fyne
+:clapper: **Cinefyne** - A TMDB Widget made with Go and Fyne
 
