@@ -7,3 +7,5 @@ I am a Designer who is enthusiastic about digital design tools and open source. 
 [**CineFyne**](https://github.com/TrevorSmale/cinefyne) - A TMDB Widget made with Go and Fyne 
 
 [**Tutils**](https://github.com/TrevorSmale/tutils) - A Python pluggin widget to speed up my modelling/rendering workflow
+
+[**OpenLung**](https://gitlab.com/open-source-ventilator/ventilator/OpenLung) - Am open source BVM actuator combing hardware & software 
