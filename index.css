@@ -85,7 +85,7 @@ h4 {
     /* Link styling font */
 
 a:link {
-  color: darkgrey;
+  color: black;
   background-color: transparent;
   text-decoration: none;
   position: center;
@@ -94,7 +94,7 @@ a:link {
     /* Previously visited link style font */
 
 a:visited {
-  color: orangered;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -102,7 +102,7 @@ a:visited {
     /* Mouse hovers over a link and it reacts */
 
 a:hover {
-  color: black;
+  color: yellow;
   background-color: transparent;
   text-decoration: underline;
 }
