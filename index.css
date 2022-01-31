@@ -102,7 +102,7 @@ a:visited {
     /* Mouse hovers over a link and it reacts */
 
 a:hover {
-  color: yellow;
+  color: indianred;
   background-color: transparent;
   text-decoration: underline;
 }
