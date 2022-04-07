@@ -42,6 +42,7 @@ h1 {
 
 .linkcontainer {
   max-width: 40rem;
+  background-color: lightgrey;
   margin: 0px auto;
   padding: 2rem;
 }
