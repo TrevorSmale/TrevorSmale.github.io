@@ -30,7 +30,7 @@ h1 {
 
 .profilecontainer {
   background-color: #9fc9bc;
-  max-width: 40rem;
+  max-width: 100%;
   margin: 1rem auto 0rem auto;
   padding: 2rem;
   border-width: 1px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .linkcontainer {
-  max-width: 40rem;
+  max-width: 100%;
   background-color: lightgrey;
   margin: 0px auto;
   padding: 2rem;
