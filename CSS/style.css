@@ -1,0 +1,98 @@
+/* global styles */
+
+:root {
+  --main-corner-radius: 2rem;
+  --bg1: hsla(0, 0%, 0%, 0.065);
+  --accent1: rgba(146, 102, 221, 0.62);
+  --accent2: rgb(195, 64, 175);
+}
+
+/* custom classes */
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.258);
+  border-radius: var(--main-corner-radius);
+}
+
+.profilecontainer {
+  background-color: var(--bg1);
+  width: auto;
+  padding: 2rem;
+  border-width: 1px;
+  border-top-left-radius: var(--main-corner-radius);
+  border-top-right-radius: var(--main-corner-radius);
+  border-bottom-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+
+.linkcontainer {
+  width: auto;
+  height: auto;
+  margin: 0px auto;
+
+}
+
+.intro {
+  margin: 3rem;
+  min-height: 3rem;
+  display: block;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.profilephoto {
+  width: auto;
+  margin: 3rem;
+}
+
+/* Standard classes */
+
+a {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 3rem;
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+a:hover {
+  background-color: var(--hover);
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+footer {
+
+  background-color: var(--bg1);
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  height: 4rem;
+  border-bottom-right-radius: var(--main-corner-radius);
+  border-bottom-left-radius: var(--main-corner-radius);
+
+}
+
+
+
