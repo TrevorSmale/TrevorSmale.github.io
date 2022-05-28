@@ -1,103 +1,131 @@
-/* global styles */
-
-:root {
-  --main-corner-radius: 2rem;
-  --bg1: hsla(0, 0%, 100%, 0.385);
-  --accent1: rgba(146, 102, 221, 0.62);
-  --accent2: rgb(195, 64, 175);
-  --hover: rgb(179, 201, 226);
-}
-
-/* custom classes */
-
 .container {
-  max-width: 60rem;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.484);
-  border-style: solid;
-  border-width: 5px;
-  border-color: rgb(255, 255, 255);
-  border-radius: var(--main-corner-radius);
+    max-width: 60rem;
+    min-width: 25rem;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    padding: 0.6rem;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-.profilecontainer {
-  background-color: var(--bg1);
-  width: auto;
-  padding: 2rem;
-  border-width: 1px;
-  border-top-left-radius: var(--main-corner-radius);
-  border-top-right-radius: var(--main-corner-radius);
-  border-bottom-left-radius: 0rem;
-  border-bottom-right-radius: 0rem;
-}
-
-.linkcontainer {
-  width: auto;
-  height: auto;
-  margin: 0px auto;
-
+.gridcontainer {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: repeat(auto, 1fr);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0.2rem;
 }
 
 .intro {
-  margin: 3rem;
-  min-height: 3rem;
-  display: block;
-  overflow-wrap: break-word;
-  text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0.2rem;
+    padding: 2rem;
 }
 
-.profilephoto {
-  width: auto;
-  margin: 3rem;
+.foss {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0.2rem;
+    padding: 2rem;
 }
 
-/* Standard classes */
-
-a {
-  display: block;
-  background-color: rgba(255, 255, 255, 0.685);
-  color: black;
-  padding: 2rem;
-  font-family: sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: none;
-
+.links {
+    display: grid;
+    gap: 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    min-width: 10rem;
+    text-align: center;
 }
 
-a:hover {
-  background-color: var(--hover);
+.split {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 0.1rem;
+    overflow-wrap: break-word;
 }
 
-p {
-  font-family: sans-serif;
-  font-size: 1rem;
+.subcontainer {
+    padding: 2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0.2rem;
 }
 
-h1 {
-  font-family: sans-serif;
-  font-size: 4rem;
+.subcontainer:hover {
+    background-color: rgb(220, 231, 243);
 }
 
-h2 {
-  font-family: sans-serif;
-  font-size: 1.5rem;
-}
-
-footer {
-
-  background-color: var(--bg1);
-  padding: 2rem 1rem 1rem 1rem;
-  text-align: center;
-  height: 4rem;
-  border-bottom-right-radius: var(--main-corner-radius);
-  border-bottom-left-radius: var(--main-corner-radius);
-
+section {
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 0.4rem;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 body {
-
-background-color: rgb(223, 217, 142);
+    background-image: linear-gradient(to bottom right, rgb(53, 66, 105), rgb(79, 54, 99));
+    height: 100rem;
 }
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
 
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+a {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: normal;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    min-width: 8rem;
+}
+
+a:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: normal;
+    font-size: 1.2em;
+    text-align: center;
+    text-overflow: clip;
+    text-decoration: none;
+    background-color: rgb(200, 204, 228);
+    border-radius: 0.2rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
