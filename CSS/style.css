@@ -9,44 +9,40 @@
 
 .gridcontainer {
     display: grid;
-    gap: 0.5rem;
+    gap: 1rem;
     grid-template-rows: repeat(auto, 1fr);
     background-color: rgba(255, 255, 255, 0);
     border-radius: 0.2rem;
 }
 
 .intro {
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    border-radius: 0.2rem;
+    padding: 2rem;
+}
+
+.skills {
     border-radius: 0.2rem;
     padding: 2rem;
 }
 
 .foss {
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
     border-radius: 0.2rem;
     padding: 2rem;
 }
 
 .links {
     display: grid;
-    gap: 2fr;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
     background-color: rgba(255, 255, 255, 0.938);
     border-radius: 0.2rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
     min-width: 10rem;
     text-align: center;
 }
 
 .split {
     display: grid;
-    gap: 0.5rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     background-color: rgba(255, 255, 255, 0.938);
     border-radius: 0.1rem;
@@ -55,9 +51,6 @@
 
 .subcontainer {
     padding: 2rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
     border-radius: 0.2rem;
 }
 
@@ -73,7 +66,7 @@ section {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(53, 66, 105), rgb(79, 54, 99));
+    background-color: rgb(84, 90, 109);
     height: 100rem;
 }
 
