@@ -33,7 +33,7 @@
 .links {
     display: grid;
     gap: 0.6rem;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     background-color: rgba(255, 255, 255, 0.938);
     border-radius: 0.2rem;
     min-width: 8rem;
@@ -43,7 +43,7 @@
 .split {
     display: grid;
     gap: 0.6rem;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     background-color: rgba(255, 255, 255, 0.938);
     border-radius: 0.1rem;
     overflow-wrap: break-word;
@@ -52,6 +52,7 @@
 .subcontainer1 {
     padding: 2rem;
     border-radius: 0.1rem;
+    vertical-align: middle;
     column-count: 2;
     background-color: rgba(248, 248, 248, 0.432);
 }
@@ -121,7 +122,8 @@ a:hover {
     text-align: center;
     text-overflow: clip;
     text-decoration: none;
-    background-color: rgb(168, 204, 174);
+    color: white;
+    background-color: rgb(255, 0, 0);
     border-radius: 0.2rem;
 }
 
